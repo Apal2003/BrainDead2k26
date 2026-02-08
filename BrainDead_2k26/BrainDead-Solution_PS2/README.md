@@ -9,15 +9,12 @@ A state-of-the-art deep learning framework for automated radiology report genera
 
 ## 📋 Table of Contents
 
-- [Architecture](#-architecture)
 - [Key Features](#-key-features)
 - [Installation](#-installation)
 - [Dataset Setup](#-dataset-setup)
 - [Usage](#-usage)
 - [Model Components](#-model-components)
 - [Evaluation](#-evaluation)
-- [Project Structure](#-project-structure)
-- [Results](#-results)
 - [Citation](#-citation)
 
 ---
