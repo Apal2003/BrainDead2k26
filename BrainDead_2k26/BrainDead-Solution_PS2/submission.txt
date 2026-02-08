@@ -5,7 +5,7 @@ Team Name: [M0delN0tFOund]
 
 MODEL CHECKPOINT
 ----------------
-Google Drive Link: [https://drive.google.com/file/d/1JeMDG_a8eBFjce4xkb48NjYcrz5uRpia/view?usp=sharing]
+Google Drive Link: https://drive.google.com/file/d/1JeMDG_a8eBFjce4xkb48NjYcrz5uRpia/view?usp=sharing
 
 # Example format:
 # https://drive.google.com/file/d/1JeMDG_a8eBFjce4xkb48NjYcrz5uRpia/view?usp=sharing
