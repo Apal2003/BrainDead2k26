@@ -1,0 +1,53 @@
+HACKATHON SUBMISSION
+====================
+
+Team Name: [M0delN0tFOund]
+
+MODEL CHECKPOINT
+----------------
+Google Drive Link: [https://drive.google.com/file/d/1JeMDG_a8eBFjce4xkb48NjYcrz5uRpia/view?usp=sharing]
+
+# Example format:
+# https://drive.google.com/file/d/1JeMDG_a8eBFjce4xkb48NjYcrz5uRpia/view?usp=sharing
+
+Model Details:
+- Filename: final_model.pth
+- Framework: PyTorch
+- Architecture: Cognitive Radiology Report Generation System
+  * Module 1: Hierarchical Visual Alignment (PRO-FA)
+  * Module 2: Knowledge-Enhanced Classification (MIX-MLP)
+  * Module 3: Triangular Cognitive Attention (RCTA)
+- Training Dataset: IU X-Ray (Indiana University)
+- Number of Disease Classes: 8
+- Input Size: 224x224 RGB images
+- Encoder: ResNet-50 + BiomedNLP-PubMedBERT
+
+Performance Metrics:
+- Overall F1 Score: [Your F1 score from training]
+- Per-class metrics available in: per_class_metrics.csv
+
+INSTRUCTIONS TO USE MODEL
+-------------------------
+1. Load the model:
+   ```python
+   import torch
+   model = Model(config)  # Initialize architecture
+   model.load_state_dict(torch.load('final_model.pth'))
+   model.eval()
+   ```
+
+2. See radiology_report_generation.py for inference example
+
+ADDITIONAL FILES
+----------------
+- Training history: training_history.csv
+- Per-class metrics: per_class_metrics.csv
+- Architecture details: architecture.json
+- Visualizations: Available in visualizations folder
+
+NOTES
+-----
+- Model trained on Tesla T4 GPU
+- Total parameters: ~50M (ResNet-50) + ~110M (PubMedBERT)
+- Training epochs: [Number from your training]
+- Best validation F1: [Your best score]
