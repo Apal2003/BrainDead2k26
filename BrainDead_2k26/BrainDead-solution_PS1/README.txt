@@ -1,7 +1,7 @@
 # ReelSense: Explainable Movie Recommender System
 
 ## 🚀 **LIVE DEPLOYMENT**
-### **🔗 https://model-not-found-ps1.streamlit.app/**
+### **🔗 https://model-not-found-ps1.streamlit.app/ **
 
 ---
 
