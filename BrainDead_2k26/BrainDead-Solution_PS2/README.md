@@ -7,18 +7,6 @@ A state-of-the-art deep learning framework for automated radiology report genera
 
 ---
 
-## 📋 Table of Contents
-
-- [Key Features](#-key-features)
-- [Installation](#-installation)
-- [Dataset Setup](#-dataset-setup)
-- [Usage](#-usage)
-- [Model Components](#-model-components)
-- [Evaluation](#-evaluation)
-- [Citation](#-citation)
-
----
-
 ### Three Core Modules:
 
 1. **PRO-FA (encoder.py)**: Hierarchical visual perception with multi-scale attention
