@@ -32,7 +32,7 @@ A hybrid movie recommendation system combining Collaborative Filtering, Content-
 ## Quick Start
 **Visit the deployment link above** or run locally:
 ```bash
-git clone https://github.com/your-username/reelsense.git
+git clone [link]
 cd reelsense
 pip install -r requirements.txt
 streamlit run app.py
