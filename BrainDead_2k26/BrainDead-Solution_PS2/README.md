@@ -293,21 +293,6 @@ if torch.cuda.device_count() > 1:
 
 ---
 
-## 📝 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{braindead2024cognitive,
-  title={Cognitive Radiology Report Generation: A Multi-Task Deep Learning Framework},
-  author={BrainDead Team},
-  year={2024},
-  howpublished={Hackathon Submission}
-}
-```
-
----
-
 ## 👥 Team
 
 **M0delN0tF0und**
