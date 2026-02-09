@@ -23,12 +23,6 @@ A hybrid movie recommendation system combining Collaborative Filtering, Content-
 
 ---
 
-## Performance
-- **Hybrid Model**: NDCG@10 = 0.0689, Precision@10 = 0.014, Recall@10 = 0.14
-- **Diversity**: Catalog Coverage = 0.0074, Intra-List Diversity = 1.2140
-
----
-
 ## Quick Start
 **Visit the deployment link above** or run locally:
 ```bash
